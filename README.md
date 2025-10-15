@@ -81,5 +81,6 @@ For fellow modders envisioning a **collaborative future**, Custom Player Animati
 ***
 
 **🌐 [CurseForge Page](https://legacy.curseforge.com/minecraft/mc-mods/cpa)**
+**🌐 [Modrinth Page](https://modrinth.com/mod/cpa)**
 
 ***
