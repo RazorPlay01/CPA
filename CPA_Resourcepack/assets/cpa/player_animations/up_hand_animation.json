@@ -1,0 +1,17 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "up_hand_animation": {
+      "loop": true,
+      "bones": {
+        "leftArm": {
+          "rotation": {
+            "vector": [-77.45372, -27.03402, -30.68206],
+            "easing": "linear"
+          }
+        }
+      }
+    }
+  },
+  "geckolib_format_version": 2
+}

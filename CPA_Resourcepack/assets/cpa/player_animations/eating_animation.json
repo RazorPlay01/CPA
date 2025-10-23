@@ -1,0 +1,56 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "eating_animation": {
+      "loop": true,
+      "animation_length": 0.3,
+      "bones": {
+        "rightArm": {
+          "rotation": {
+            "0.0": {
+              "vector": [
+                -92.08,
+                -31.14,
+                18.8
+              ],
+              "easing": "linear"
+            },
+            "0.05": {
+              "vector": [
+                -95.42,
+                -34.52,
+                20.89
+              ],
+              "easing": "linear"
+            },
+            "0.15": {
+              "vector": [
+                -92.5,
+                -31.56,
+                19.06
+              ],
+              "easing": "linear"
+            },
+            "0.25": {
+              "vector": [
+                -89.48,
+                -28.5,
+                17.18
+              ],
+              "easing": "linear"
+            },
+            "0.3": {
+              "vector": [
+                -92.08,
+                -31.14,
+                18.8
+              ],
+              "easing": "linear"
+            }
+          }
+        }
+      }
+    }
+  },
+  "geckolib_format_version": 2
+}

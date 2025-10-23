@@ -1,0 +1,31 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "bow_sneak_animation": {
+      "loop": true,
+      "bones": {
+        "rightArm": {
+          "rotation": {
+            "vector": [
+              -85.99118,
+              67.36871,
+              6.01146
+            ],
+            "easing": "linear"
+          }
+        },
+        "leftArm": {
+          "rotation": {
+            "vector": [
+              -121.03178,
+              84.30621,
+              -28.44152
+            ],
+            "easing": "linear"
+          }
+        }
+      }
+    }
+  },
+  "geckolib_format_version": 2
+}

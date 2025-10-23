@@ -1,86 +1,104 @@
-# Custom Player Animations
+# Custom Player Animations - Example Resource Pack
 
-**Version:** 1.21.8  
-**Dependencies:** [Player Animation Library](https://www.curseforge.com/minecraft/mc-mods/player-animation-library)  
+**Version:** 1.21.8+ 
+**Dependencies:** [Custom Player Animations Mod](https://legacy.curseforge.com/minecraft/mc-mods/cpa), [Player Animation Library](https://www.curseforge.com/minecraft/mc-mods/player-animation-library)  
 **Author:** RazorPlay01
 
 ## Overview
 
-In a future where Minecraft players demand ultimate personalization and immersive experiences, **Custom Player Animations** steps forward as a visionary mod. Inspired by the **2025 CurseForge ModJam theme "The Future,"** this mod reimagines player animations not as static relics of the past, but as **dynamic, customizable elements** that evolve with community creativity.
+Welcome to the **Example Resource Pack** for **Custom Player Animations**, a companion to the visionary mod submitted for the **2025 CurseForge ModJam** under the theme *"The Future."* This resource pack serves as a **template and guide** for players and creators who want to **customize player animations** in Minecraft. By leveraging the mod’s flexible animation system, this pack demonstrates how to **override and personalize animations** to create unique, futuristic movement styles.
 
-By overhauling a vast array of vanilla player animations using the **Player Animator Library API**, it paves the way for a **new era of player expression**—where animations can be swapped, tweaked, and innovated upon through **resource packs** and **configs**.
-
-> **Imagine a Minecraft world where your character's movements adapt to futuristic sci-fi themes, cyberpunk styles, or even AI-driven procedural animations.**
-
-This mod isn't just an update; **it's a bridge to the future of player animation modding.**
+This resource pack is designed to be **simple to use and modify**, empowering you to craft animations that match your vision—whether it’s a **cyberpunk swagger**, a **sci-fi glide**, or something entirely new. Let’s shape the future of Minecraft animations together!
 
 ## ✨ Features
 
-### 🚀 Enhanced Vanilla Animations
+### 🚀 Example Animations
 
-Custom Player Animations **replaces and enhances over 50 vanilla player animations**, covering everything from basic movements to specialized actions. These are divided into **main, overlay, and special categories** for seamless integration:
+This resource pack includes a set of **pre-made animation overrides** to showcase the potential of **Custom Player Animations**. It modifies a subset of the mod’s animations to give you a taste of what’s possible:
 
-| <strong>Category</strong> |<strong>Animations Included</strong>                                                                                                                                                                                                                                                                                  |
-| --------------------- |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <strong>🟢 Main Animations</strong> |Idle standing/sneaking, walking (forward/backward/sneaking), running, turning (left/right/sneaking), creative flying, falling, climbing (forward/backward/sneaking/idle), crawling (forward/backward/idle), swimming (idle/forward/backward/up/down), mounting (minecart/horse/boat), elytra gliding, sleeping, death |
-| <strong>🟡 Overlay Animations</strong> |Eating, trident throwing, bow drawing, shield blocking, crossbow charging, hand swings for tools (sword/pickaxe/axe/shovel), compatibility hooks for mods                                                                                                                                                             |
-| <strong>🔴 Special Animations</strong> |Up-hand gestures, item swapping                                                                                                                                                                                                                                                                                       |
+| **Category** | **Animations Modified** | **Description** |
+|--------------|-------------------------|--------------|
+| **🟢 Main Animations** | Walking, Running, Idle Standing | Smooth, futuristic movements with a slight hover-like effect. |
+| **🟡 Overlay Animations** | Sword Swing, Bow Drawing | Enhanced with dynamic flourishes for a high-tech combat feel. |
+| **🔴 Special Animations** | Up-Hand Gesture | A sleek, robotic wave for futuristic interactions. |
 
-**All animations are designed to feel natural and fluid**, blending smoothly with Minecraft's core gameplay while offering a **fresh, modern twist**.
+These examples are stored in `assets/cpa/player_animations` as **JSON files**, ready for you to explore and tweak.
 
-### 🎨 Resource Pack Customization
+### 🎨 How to Customize Animations
 
-**Empower your future self** with **full customization**!
+The **Custom Player Animations** mod makes animation customization **accessible and powerful** through resource packs. Here’s how you can modify animations using this example pack as a starting point:
 
-*   ✅ All animations stored in `assets/cpa/player_animations` as **JSON files**
-*   ✅ **Easy override** via resource packs
-*   ✅ Just replace files and reload
-*   ✅ **Included `.bbmodel` file** for **Blockbench** preview/edit/create
+1. **Locate the Animation Files**  
+   - Inside the resource pack, navigate to `assets/cpa/player_animations`.  
+   - You’ll find JSON files for each animation (e.g., `walking.json`, `sword_swing.json`).  
+   - Each file defines keyframes, rotations, and timings for smooth animation.
 
-> **This tool-friendly approach ensures the mod remains future-proof**, ready for whatever animation innovations the community dreams up.
+2. **Edit with Blockbench**  
+   - The pack includes a **`.bbmodel` file** for use with **Blockbench**, a free tool for creating and editing Minecraft models and animations.  
+   - Open the `.bbmodel` file in Blockbench to preview or modify animations visually.  
+   - Export your changes as JSON files to update the resource pack.
 
-### ⚙️ Configurable Parameters
+3. **Override Animations**  
+   - Copy the example resource pack folder to your Minecraft `resourcepacks` directory.  
+   - Modify the JSON files directly or replace them with your own creations.  
+   - Reload the resource pack in-game (`F3 + T` or via the resource pack menu) to see your changes instantly.
 
-**Tailor animations to your vision of the future** with an **intuitive config screen** (powered by AutoConfig):
+4. **Test and Iterate**  
+   - Launch Minecraft with the **Custom Player Animations** mod installed.  
+   - Test your animations in-game to ensure they feel natural and fluid.  
+   - Adjust timings, keyframes, or easing functions in the JSON files to perfect your animations.
 
-| <strong>Category</strong> |<strong>Configurable Options</strong>                    |
-| ------------------ |-------------------------------------------------------- |
-| <strong>General</strong> |Speed multiplier, up-hand disable lists                  |
-| <strong>Main Animations</strong> |Enable/disable, speed, fade time, priority per animation |
-| <strong>Overlay Animations</strong> |Tool-specific configs                                    |
-| <strong>Special</strong> |Up-hand &amp; item swap                                  |
+> **Pro Tip**: Use the included `.bbmodel` file as a template to create entirely new animations. Experiment with futuristic themes like low-gravity bounces or holographic effects!
 
-**Perfect for fine-tuning speeds** in **high-tech or low-grav environments** when paired with custom resource packs.
+### ⚙️ Animation File Structure
 
-### 👨‍💻 Developer API
+Each animation JSON file follows a structure compatible with the **Player Animator Library API**. Here’s a simplified example of what a `walking.json` file might look like:
 
-For fellow modders envisioning a **collaborative future**, Custom Player Animations includes a **simple, easy-to-use API**.
+```json
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "blank_loop_animation": {
+      "loop": true,
+      "bones": {}
+    }
+  },
+  "geckolib_format_version": 2
+}
+```
 
-> **Documentation in progress** - Reach out or check the source for hooks. **Let's build the next generation of animated experiences together!**
+### 🛠️ Tools and Resources
+
+- **Blockbench**: Download from [blockbench.net](https://www.blockbench.net/) to edit animations visually.  
+- **Player Animator Library Documentation**: Check the [Player Animation Library](https://www.curseforge.com/minecraft/mc-mods/player-animation-library) page for advanced API details.  
+- **Community Tutorials**: Search on CurseForge or Modrinth for community guides on animation modding.
 
 ## 📥 Installation
 
-1.  Install **Fabric** for **Minecraft 1.21.8**
-2.  Install required **[Player Animation Library](https://www.curseforge.com/minecraft/mc-mods/player-animation-library)**
-3.  Drop **Custom Player Animations JAR** in mods folder
-4.  **(Optional)** Add resource packs to override animations
-5.  **Launch & configure** via in-game mod menu
+1. Ensure you have **Minecraft 1.21.8** with **Fabric** installed.  
+2. Install the **[Custom Player Animations Mod](https://legacy.curseforge.com/minecraft/mc-mods/cpa)** and **[Player Animation Library](https://www.curseforge.com/minecraft/mc-mods/player-animation-library)**.  
+3. Place this **Example Resource Pack** in your Minecraft `resourcepacks` folder.  
+4. Activate the resource pack in the Minecraft resource pack menu.  
+5. (Optional) Modify the JSON files or use Blockbench to create your own animations.  
+6. Reload resources (`F3 + T`) to apply changes.
 
 ## ✅ Compatibility
 
-*   ✅ **Vanilla Minecraft** & most animation-friendly mods
-*   ✅ **Client-side only** - no server changes needed
-*   🔄 **Future updates** will expand compatibility
+- **Client-side only**: Works on any server as long as the mod is installed on your client.  
+- Compatible with most animation-friendly mods.  
+- Designed to work seamlessly with the **Custom Player Animations** mod.
 
 ## 🏆 Credits
 
-*   **Built with love by** RazorPlay01
-*   **Powered by** Player Animator Library
-*   **Submitted to** 2025 CurseForge ModJam: **Embracing "The Future"** through customizable, evolving player animations
+- **Created by**: RazorPlay01  
+- **Powered by**: [Player Animator Library](https://www.curseforge.com/minecraft/mc-mods/player-animation-library)  
+- **Inspired by**: 2025 CurseForge ModJam’s theme *"The Future"*  
+
+## 🌐 Links
+
+- **Mod Page**: [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/cpa) | [Modrinth](https://modrinth.com/mod/cpa)  
+- **Support**: Reach out on CurseForge or Modrinth for help with customization!
 
 ***
 
-**🌐 [CurseForge Page](https://legacy.curseforge.com/minecraft/mc-mods/cpa)**
-**🌐 [Modrinth Page](https://modrinth.com/mod/cpa)**
-
-***
+**Unleash your creativity and redefine how players move in Minecraft’s future!**

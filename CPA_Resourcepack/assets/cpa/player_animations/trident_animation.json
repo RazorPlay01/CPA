@@ -1,0 +1,39 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "trident_animation": {
+      "loop": true,
+      "bones": {
+        "rightArm": {
+          "rotation": {
+            "vector": [
+              -172.4439,
+              -48.03857,
+              -30.1797
+            ],
+            "easing": "linear"
+          },
+          "position": {
+            "vector": [
+              0,
+              1,
+              0
+            ],
+            "easing": "linear"
+          }
+        },
+        "leftArm": {
+          "rotation": {
+            "vector": [
+              -53.95534,
+              -31.81666,
+              -38.48998
+            ],
+            "easing": "linear"
+          }
+        }
+      }
+    }
+  },
+  "geckolib_format_version": 2
+}

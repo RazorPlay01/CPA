@@ -1,0 +1,111 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "climbing_sneak_idle_animation": {
+      "loop": true,
+      "bones": {
+        "torso": {
+          "rotation": {
+            "vector": [
+              0,
+              -1.67,
+              0
+            ],
+            "easing": "linear"
+          },
+          "position": {
+            "vector": [
+              0,
+              -4,
+              0
+            ],
+            "easing": "linear"
+          }
+        },
+        "head": {
+          "position": {
+            "vector": [
+              0,
+              -4,
+              0
+            ],
+            "easing": "linear"
+          }
+        },
+        "rightArm": {
+          "rotation": {
+            "vector": [
+              -127.5,
+              0,
+              0
+            ],
+            "easing": "linear"
+          },
+          "position": {
+            "vector": [
+              0,
+              -4,
+              0
+            ],
+            "easing": "linear"
+          }
+        },
+        "leftArm": {
+          "rotation": {
+            "vector": [
+              -127.5,
+              0,
+              0
+            ],
+            "easing": "linear"
+          },
+          "position": {
+            "vector": [
+              0,
+              -4,
+              0
+            ],
+            "easing": "linear"
+          }
+        },
+        "rightLeg": {
+          "rotation": {
+            "vector": [
+              -25,
+              0,
+              0
+            ],
+            "easing": "linear"
+          },
+          "position": {
+            "vector": [
+              0,
+              0,
+              -2
+            ],
+            "easing": "linear"
+          }
+        },
+        "leftLeg": {
+          "rotation": {
+            "vector": [
+              -25,
+              0,
+              0
+            ],
+            "easing": "linear"
+          },
+          "position": {
+            "vector": [
+              0,
+              0,
+              -2
+            ],
+            "easing": "linear"
+          }
+        }
+      }
+    }
+  },
+  "geckolib_format_version": 2
+}
