@@ -1,6 +1,8 @@
 # Custom Player Animations
 
-**Version:** 1.21.8  
+**[Base Resorcepack](https://github.com/RazorPlay01/CPA/tree/resourcepack)** 
+
+**Version:** 1.21.8+
 **Dependencies:** [Player Animation Library](https://www.curseforge.com/minecraft/mc-mods/player-animation-library)  
 **Author:** RazorPlay01
 
