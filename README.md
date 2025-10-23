@@ -30,7 +30,7 @@ The **Custom Player Animations** mod makes animation customization **accessible 
 
 1. **Locate the Animation Files**  
    - Inside the resource pack, navigate to `assets/cpa/player_animations`.  
-   - You’ll find JSON files for each animation (e.g., `walking.json`, `sword_swing.json`).  
+   - You’ll find JSON files for each animation (e.g., `walking`, `running`).  
    - Each file defines keyframes, rotations, and timings for smooth animation.
 
 2. **Edit with Blockbench**  
