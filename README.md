@@ -1,5 +1,9 @@
 # Custom Player Animations
 
+[![Versions](http://cf.way2muchnoise.eu/versions/1364067.svg)](https://www.curseforge.com/minecraft/mc-mods/cpa)
+[![Downloads](http://cf.way2muchnoise.eu/full_1364067_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/cpa)
+[![Downloads Modrinth](https://img.shields.io/modrinth/dt/cpa?color=00AF5C&label=downloads&logo=modrinth)](https://modrinth.com/mod/cpa)
+
 **[Base Resorcepack](https://github.com/RazorPlay01/CPA/tree/resourcepack)** 
 
 **Version:** 1.21.8+
