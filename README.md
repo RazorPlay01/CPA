@@ -6,6 +6,9 @@
 
 **[Base Resorcepack](https://github.com/RazorPlay01/CPA/tree/resourcepack)** 
 
+[![Custom Player Animations](https://modfolio.creeperkatze.de/modrinth/project/cpa)](https://modrinth.com/mod/cpa)
+[![Custom Player Animations](https://modfolio.creeperkatze.de/curseforge/project/1364067)](https://www.curseforge.com/minecraft/mc-mods/cpa)
+
 **Version:** 1.21.8+
 **Dependencies:** [Player Animation Library](https://www.curseforge.com/minecraft/mc-mods/player-animation-library)  
 **Author:** RazorPlay01
